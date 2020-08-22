@@ -45,6 +45,11 @@ const profileByApiKey = require('../../../middleware/profileByApiKey');
  *      security:
  *        - basicAuth: []
  */
-router.post('/subscribe', profileByApiKey, controller.subscribe);
+// router.post('/chat', profileByApiKey);
+
+// router.get('/socket.io', () => {
+//   console.log('Connection');
+//   res.status(200).send({ message: 'Socket installed' });
+// });
 
 module.exports = router;
