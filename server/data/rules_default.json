@@ -1,0 +1,6 @@
+{
+  "is_chat_allow": {
+    "title": "Allow to chats",
+    "value": false
+  }
+}
